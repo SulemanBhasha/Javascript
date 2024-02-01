@@ -15,8 +15,10 @@ const user ={
     userName:"Suleman",
     password:"Anfal",
      getUserdetails: function(){
-            console.log("user is find " + this.userName);       
+            console.log("user is find " + this.userName);     
     }
+    
 }
 console.log(user.userName);
 console.log(user.getUserdetails());
+console.log(this);
