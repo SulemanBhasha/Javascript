@@ -3,7 +3,20 @@ class Notes {
         this.name=name
         this.age= age
     }
+    
 }
 
-const notes = new Notes("Suleman",19)
+let notes = new Notes("Suleman",19)
 console.log(notes);
+
+console.log("-----------------------------------");
+
+const user ={
+    userName:"Suleman",
+    password:"Anfal",
+     getUserdetails: function(){
+            console.log("user is find " + this.userName);       
+    }
+}
+console.log(user.userName);
+console.log(user.getUserdetails());
